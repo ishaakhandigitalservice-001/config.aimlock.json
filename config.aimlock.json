@@ -16,6 +16,9 @@
       }
     },
     "wallhack": { "enabled": false },
+    "aimlockhack": { "enabled": false },
+    "headshothack": { "enabled": false },
+    "dragheadshothack": { "enabled": false },
     "speedhack": { "enabled": false },
     "esp": { "enabled": false }
   },
@@ -23,6 +26,9 @@
     "randomizeActions": true,
     "hideFromSpectators": true,
     "secureInjection": true,
+    "secureAimLockInjection": true,
+    "secureDragHeadshotInjection": true,
+    "secureAimLock": true,
     "periodicCleanup": true,
     "customPackageName": true
   },
