@@ -1,0 +1,44 @@
+{
+  "configName": "FreeFireMAX_DragFireHeadshot",
+  "configName": "com.dts.freefiremax_DragFireHeadshot",
+  "version": "3.0",
+  "purpose": "Educational use only. Provides drag fire headshot (aimlock style) in Free Fire MAX. No wallhack, no ESP.",
+  "features": {
+    "aimlock": {
+      "enabled": true,
+      "mode": "firebutton_drag_fire_headshot",
+      "mode": "firebutton_drag_headshot",
+      "mode": "crosshair_drag_fire_headshot",
+      "mode": "drag_straight_fire_headshot",
+      "aimSensitivity": 9.95,
+      "assistRange": 35,45,55,95,20,15,5,155,255,999,
+      "triggerZone": {
+        "top": 0.95,
+        "bottom": 0.95,
+        "left": 0.95,
+        "right": 0.95
+      }
+    },
+    "wallhack": { "enabled": false },
+    "aimlockhack": { "enabled": true },
+    "headshothack": { "enabled": true },
+    "dragheadshothack": { "enabled": true },
+    "speedhack": { "enabled": true },
+    "esp": { "enabled": false }
+  },
+  "antiBan": {
+    "randomizeActions": true,
+    "hideFromSpectators": true,
+    "secureInjection": true,
+    "secureAimLockInjection": true,
+    "secureDragHeadshotInjection": true,
+    "secureAimLock": true,
+    "periodicCleanup": true,
+    "customPackageName": true
+  },
+  "notes": [
+    "This configuration is for educational demonstration only.",
+    "No cheats except drag fire headshot aim assist are enabled.",
+    "Always use responsibly and respect game terms of service."
+  ]
+}
