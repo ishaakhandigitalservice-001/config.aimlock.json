@@ -1,8 +1,8 @@
 {
   "configName": "FreeFireMAX_DragFireHeadshot",
-  "configName": "com.dts.freefiremax_DragFireHeadshot",
+  "configName": "com.dts.freefiremax",
   "version": "3.0",
-  "purpose": "Educational use only. Provides drag fire headshot (aimlock style) in Free Fire MAX. No wallhack, no ESP.",
+  "purpose": "Educational use only. Provides drag fire headshot (aimlock style) in Free Fire MAX. No wallhack.",
   "features": {
     "aimlock": {
       "enabled": true,
@@ -10,11 +10,11 @@
       "mode": "firebutton_drag_headshot",
       "mode": "crosshair_drag_fire_headshot",
       "mode": "drag_straight_fire_headshot",
-      "aimSensitivity": 9.95,
+      "aimSensitivity": 99.95,
       "assistRange": 35,45,55,95,20,15,5,155,255,999,
       "triggerZone": {
-        "top": 9.95,
-        "bottom": 0.95,
+        "top": 10.95,
+        "bottom": 0.01,
         "left": 9.95,
         "right": 9.95
       }
@@ -24,9 +24,11 @@
     "headshothack": { "enabled": true },
     "dragheadshothack": { "enabled": true },
     "speedhack": { "enabled": true },
-     "headhack": { "enabled": true },
-     "headzonehack": { "enabled": true },
-    "esp": { "enabled": false }
+    "draghack": { "enabled": true },
+    "crosshairhack": { "enabled": true },
+    "headhack": { "enabled": true },
+    "headzonehack": { "enabled": true },
+    "esp": { "enabled": true }
   },
   "antiBan": {
     "randomizeActions": true,
