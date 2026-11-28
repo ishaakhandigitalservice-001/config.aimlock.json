@@ -1,7 +1,6 @@
 {
   "configName": "FreeFireMAX_DragFireHeadshot",
-  "configName": "com.dts.freefiremax",
-  "version": "1.0",
+  "version": "4.0",
   "purpose": "Educational use only. Provides drag fire headshot (aimlock style) in Free Fire MAX. No wallhack.",
   "features": {
     "aimlock": {
@@ -17,6 +16,20 @@
         "bottom": 0.01,
         "left": 9.95,
         "right": 9.95
+      }
+     "aimbot": {
+      "enabled": true,
+      "mode": "firebutton_drag_fire_headshot",
+      "mode": "firebutton_drag_headshot",
+      "mode": "crosshair_drag_fire_headshot",
+      "mode": "drag_straight_fire_headshot",
+      "aimSensitivity": 10.95,
+      "assistRange": 9999999999999999999,
+      "triggerZone": {
+        "top": 10.0,
+        "bottom": -0.95,
+        "left": 10.0,
+        "right": 10.0
       }
     },
     "wallhack": { "enabled": false },
@@ -41,8 +54,6 @@
     "customPackageName": true
   },
   "notes": [
-    "This configuration is for educational demonstration only.",
-    "No cheats except drag fire headshot aim assist are enabled.",
-    "Always use responsibly and respect game terms of service."
+    "aimlock, aimbot are enabled."
   ]
 }
