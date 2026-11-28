@@ -9,13 +9,13 @@
       "mode": "firebutton_drag_headshot",
       "mode": "crosshair_drag_fire_headshot",
       "mode": "drag_straight_fire_headshot",
-      "aimSensitivity": 99.95,
-      "assistRange": 35,45,55,95,20,15,5,155,255,999,
+      "aimSensitivity": 10.0,
+      "assistRange": 9999999999999999999,
       "triggerZone": {
-        "top": 10.95,
-        "bottom": 0.01,
-        "left": 9.95,
-        "right": 9.95
+        "top": 10.0,
+        "bottom": -0.95,
+        "left": 10.0,
+        "right": 10.0
       }
      "aimbot": {
       "enabled": true,
@@ -23,7 +23,7 @@
       "mode": "firebutton_drag_headshot",
       "mode": "crosshair_drag_fire_headshot",
       "mode": "drag_straight_fire_headshot",
-      "aimSensitivity": 10.95,
+      "aimSensitivity": 10.0,
       "assistRange": 9999999999999999999,
       "triggerZone": {
         "top": 10.0,
