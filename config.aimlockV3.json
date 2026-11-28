@@ -13,10 +13,10 @@
       "aimSensitivity": 9.95,
       "assistRange": 35,45,55,95,20,15,5,155,255,999,
       "triggerZone": {
-        "top": 0.95,
+        "top": 9.95,
         "bottom": 0.95,
-        "left": 0.95,
-        "right": 0.95
+        "left": 9.95,
+        "right": 9.95
       }
     },
     "wallhack": { "enabled": false },
@@ -24,6 +24,8 @@
     "headshothack": { "enabled": true },
     "dragheadshothack": { "enabled": true },
     "speedhack": { "enabled": true },
+     "headhack": { "enabled": true },
+     "headzonehack": { "enabled": true },
     "esp": { "enabled": false }
   },
   "antiBan": {
