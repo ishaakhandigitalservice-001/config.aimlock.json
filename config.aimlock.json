@@ -1,7 +1,7 @@
 {
   "configName": "FreeFireMAX_DragFireHeadshot",
   "configName": "com.dts.freefiremax",
-  "version": "3.0",
+  "version": "1.0",
   "purpose": "Educational use only. Provides drag fire headshot (aimlock style) in Free Fire MAX. No wallhack.",
   "features": {
     "aimlock": {
